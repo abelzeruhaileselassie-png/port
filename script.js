@@ -18,4 +18,3 @@ fs.readFile(sendfiepath,(err,data) => {
 res.writeHead(200,{'content-type':'text/html'})
 res.end('data')
 }) 
-server.listen(3000,() =>console.log('the server is running'))
